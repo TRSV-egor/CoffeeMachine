@@ -56,7 +56,7 @@ class CoffeeMachine {
 
     fun start() {
 
-        val coffieList = Coffee.entries.toTypedArray()
+        val coffieList = Coffee.values()
 
         println("Кофемашина готова к работе")
 
