@@ -1,4 +1,3 @@
-package com.practicum.mytestapplication
 import java.util.*
 
 interface CoffeeRecipe{
@@ -103,9 +102,4 @@ class CoffeeMachine {
             }
         }
     }
-}
-
-fun main(){
-    val coffeeMachine = CoffeeMachine()
-    coffeeMachine.start()
 }
